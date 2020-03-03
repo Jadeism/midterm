@@ -195,6 +195,7 @@ flex: 0 0  100%;
   display:flex;
   flex-flow: row wrap;
   justify-content:space-between;
+  align-content:flex-start;
 
 
 }
@@ -206,11 +207,10 @@ flex: 0 0  100%;
 
 @media screen and (max-width: 768px){
   .two-column-layout .column {
-    display:flex;
     flex: 0 0 calc(100% - 2rem);
-    flex-flow: column wrap;
 
   }
+
 }
 /* End of Two Column Layout */
 
@@ -354,10 +354,11 @@ align-self:flex-start;
   }
   .footer{
     display:flex;
-    flex-flow:column wrap;
+    flex-direction:column;
   }
 
   .footer .column:first-of-type {
+
   }
   .footer .column.copy {
     display:flex;
