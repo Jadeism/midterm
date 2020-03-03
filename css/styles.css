@@ -192,11 +192,9 @@ flex: 0 0  100%;
 
 /* Two Column layout */
 .two-column-layout {
-  display:flex;
+  display: flex;
   flex-flow: row wrap;
-  justify-content:space-between;
-  align-content:flex-start;
-
+  justify-content:space-around;
 
 }
 
@@ -442,11 +440,13 @@ align-self:flex-start;
   color: #fafafa;
   width: 2rem;
   height: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .social-media li a i {
   font-style: normal;
-    font-size: 1rem;
-    line-height: 1rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 /* End of Social Media Icons */
