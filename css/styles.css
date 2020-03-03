@@ -192,11 +192,9 @@ flex: 0 0  100%;
 
 /* Two Column layout */
 .two-column-layout {
-  display:flex;
+  display: flex;
   flex-flow: row wrap;
-  justify-content:space-between;
-
-
+  justify-content:space-around;
 }
 
 .two-column-layout .column {
