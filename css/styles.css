@@ -222,7 +222,7 @@ form {
 display:flex;
 flex-direction:column;
 justify-content:flex-start;
-align-content:stretch;
+align-content:flex-start;
 
 }
 
@@ -258,6 +258,8 @@ textarea {
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   align-content:center;
+
+  flex-basis:100%;
 }
 /* End of Contact Form */
 
@@ -269,16 +271,18 @@ form.inline-form {
 
 form.inline-form .form-group {
 display:flex;
-
+flex-basis:80%;
 }
 
 form.inline-form label {
   display: none;
+
 }
 
 form.inline-form input[type="text"] {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+    flex-basis:8%;
 }
 
 form.inline-form input[type="submit"] {
@@ -303,6 +307,7 @@ input[type="submit"] {
   line-height: 1rem;
   display:flex;
   flex-flow:row wrap;
+  justify-content: space-between;
 }
 
 .footer .column {
